@@ -1,7 +1,7 @@
 import os
 from currencyClassifier.constants import *
-from currencyClassifier.utils.common import read_yaml, create_directories
-from currencyClassifier.entity.config_entity import (DataIngestionConfig, PrepareBaseModelConfig, ModelTrainingConfig)
+from currencyClassifier.utils.common import read_yaml, create_directories, save_json
+from currencyClassifier.entity.config_entity import (DataIngestionConfig, PrepareBaseModelConfig, ModelTrainingConfig, EvaluationConfig)
 
 class ConfigurationManager():
     def __init__(self,config_filepath = CONFIG_FILE_PATH,params_filepath=PARAMS_FILE_PATH):
@@ -66,3 +66,15 @@ class ConfigurationManager():
         )
 
         return model_training_config
+    
+
+    def get_evaluation_config(self) -> EvaluationConfig:
+        evaluation_config = EvaluationConfig(
+            path_of_model="artifacts/training/model.h5",
+            training_data="artifacts/data_ingestion/Currency_image",
+            all_params=self.params,
+            mlflow_uri="https://dagshub.com/vedanshgupta606/fake-note-classifier.mlflow",
+            params_batch_size=self.params.BATCH_SIZE,
+            params_image_size=self.params.IMAGE_SIZE
+        )
+        return evaluation_config

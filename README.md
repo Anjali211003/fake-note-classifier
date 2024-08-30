@@ -71,7 +71,7 @@ open up you local host and port
 ### dagshub
 [dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI= \
+MLFLOW_TRACKING_URI= https://dagshub.com/vedanshgupta606/fake-note-classifier.mlflow
 MLFLOW_TRACKING_USERNAME=vedanshgupta606 \
 MLFLOW_TRACKING_PASSWORD= \
 python script.py
@@ -80,7 +80,7 @@ Run this to export as env variables:
 
 ```bash
 
-export MLFLOW_TRACKING_URI=
+export MLFLOW_TRACKING_URI=https://dagshub.com/vedanshgupta606/fake-note-classifier.mlflow
 
 export MLFLOW_TRACKING_USERNAME=vedanshgupta606
 
