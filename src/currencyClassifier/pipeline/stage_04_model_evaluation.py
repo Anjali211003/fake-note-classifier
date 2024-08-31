@@ -15,7 +15,7 @@ class EvaluationPipeline:
         eval_config = config.get_evaluation_config()
         evaluation = Evaluation(config=eval_config)
         evaluation.evaluation()
-        evaluation.log_into_mlflow()
+        # evaluation.log_into_mlflow()
 
 
 

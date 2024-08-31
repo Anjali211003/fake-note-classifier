@@ -3,8 +3,8 @@ from pathlib import Path
 import mlflow
 import mlflow.keras
 from urllib.parse import urlparse
-from src.currencyClassifier.entity.config_entity import EvaluationConfig
-from src.currencyClassifier.utils.common import save_json
+from currencyClassifier.entity.config_entity import EvaluationConfig
+from currencyClassifier.utils.common import save_json
 
 
 class Evaluation:

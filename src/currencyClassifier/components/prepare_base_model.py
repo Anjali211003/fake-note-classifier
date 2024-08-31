@@ -1,6 +1,6 @@
 from pathlib import Path
 import tensorflow as tf
-from src.currencyClassifier.entity.config_entity import PrepareBaseModelConfig
+from currencyClassifier.entity.config_entity import PrepareBaseModelConfig
 
 class PrepareBaseModel:
     def __init__(self,config : PrepareBaseModelConfig):
