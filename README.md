@@ -26,7 +26,7 @@
 Clone the repository
 
 ```bash
-https://github.com/Anjali211003/end-to-end-dl-project
+https://github.com/Anjali211003/fake-note-classifier
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
