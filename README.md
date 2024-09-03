@@ -26,7 +26,7 @@
 Clone the repository
 
 ```bash
-https://github.com/Vedansh1857/end-to-end-dl-project
+https://github.com/Anjali211003/end-to-end-dl-project
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
@@ -71,8 +71,8 @@ open up you local host and port
 ### dagshub
 [dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI= https://dagshub.com/vedanshgupta606/fake-note-classifier.mlflow
-MLFLOW_TRACKING_USERNAME=vedanshgupta606 \
+MLFLOW_TRACKING_URI= https://dagshub.com/Anjali211003\fake-note-classifier.mlflow
+MLFLOW_TRACKING_USERNAME=xyz \
 MLFLOW_TRACKING_PASSWORD= \
 python script.py
 
@@ -80,9 +80,9 @@ Run this to export as env variables:
 
 ```bash
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/vedanshgupta606/fake-note-classifier.mlflow
+export MLFLOW_TRACKING_URI=https://dagshub.com/Anjali211003/fake-note-classifier.mlflow
 
-export MLFLOW_TRACKING_USERNAME=vedanshgupta606
+export MLFLOW_TRACKING_USERNAME=Anjali211003
 
 export MLFLOW_TRACKING_PASSWORD=
 
