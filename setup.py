@@ -6,9 +6,9 @@ with open("README.md", "r", encoding="utf-8") as f:
 __version__ = "0.0.0"
 
 REPO_NAME = "fake-note-classifier"
-AUTHOR_USER_NAME = "Vedansh1857"
+AUTHOR_USER_NAME = "Anjali211003"
 SRC_REPO = "currencyClassifier"
-AUTHOR_EMAIL = "vedanshgupta606@gmail.com"
+AUTHOR_EMAIL = "guptaanjali90757@gmail.com"
 
 setuptools.setup(
     name=SRC_REPO,
