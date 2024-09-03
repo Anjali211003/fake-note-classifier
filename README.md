@@ -72,7 +72,7 @@ open up you local host and port
 [dagshub](https://dagshub.com/)
 
 MLFLOW_TRACKING_URI= https://dagshub.com/Anjali211003\fake-note-classifier.mlflow
-MLFLOW_TRACKING_USERNAME=xyz \
+MLFLOW_TRACKING_USERNAME=Anjali211003 \
 MLFLOW_TRACKING_PASSWORD= \
 python script.py
 
